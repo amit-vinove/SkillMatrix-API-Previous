@@ -17,7 +17,9 @@ namespace SkillMatrix.Data
         public DbSet<BehaviourDrivenDevelopment> BehaviourDrivenDevelopments { get; set; }
         public DbSet<GenericSkills> GenericSkills { get; set; }
         public DbSet<BasicFoundation> BasicFoundation { get; set; }
-
+        public DbSet<SDLCProceeses> SDLCProceeses { get; set; }
+        public DbSet<JSFrontEnd> JSFrontEnd { get; set; }
+        public DbSet<Cloud> Cloud { get; set; }
 
 
 
